@@ -10,4 +10,4 @@ install:
 script: nosetests
 
 after_success:
-  - python <(curl -s https://raw.githubusercontent.com/TouK/sputnik-ci/master/sputnik-ci.py)
+  - python <(curl -s https://raw.githubusercontent.com/TouK/sputnik-ci/python3-support/sputnik-ci.py)
